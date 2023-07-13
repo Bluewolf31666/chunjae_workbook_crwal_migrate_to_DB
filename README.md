@@ -4,5 +4,6 @@
 관련 주소 password 등은 없기 때문에 시연은 불가능할수 있지만 본인의 dummy data랑 aws address를 넣으면 돌아갈수있게 코딩할 예정입니다.
 
 ![img](project1.png)
-###
-
+### Update log
+07-11 ~ 12: crawling을 전체 화면 및 요소 캡쳐 방식으로 구현
+07-13: 기본적인 회사 codecommit 계정 배포 및 연결
