@@ -6,4 +6,4 @@
 ![img](project1.png)
 ### Update log
 07-11 ~ 12: crawling을 전체 화면 및 요소 캡쳐 방식으로 구현
-07-13: 기본적인 회사 codecommit 계정 배포 및 연결
+07-13: 기본적인 회사 codecommit 계정 배포 및 연결  
