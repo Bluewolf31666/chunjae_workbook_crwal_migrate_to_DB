@@ -9,5 +9,5 @@
 ### Update log
 07-11 ~ 12: crawling을 전체 화면 및 요소 캡쳐 방식으로 구현  
 07-13: 기본적인 회사 codecommit 계정 배포 및 연결  
-07-17: crawing 기능 추가 -> 문제 영역만 추출(이미지 편집으로 해결)
+07-17: crawing 기능 추가 -> 문제 영역만 추출(이미지 편집으로 해결)  
 07-18: db및 주소 관련 setting.py로 옮김, AWS lambda에서 돌리기 위한 dockerfile 준비 및 검증 완료
