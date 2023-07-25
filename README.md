@@ -17,7 +17,9 @@
 ### Solution
 1. Selenium 자동 업데이트 및 버전 문제
 > 우선 바로 테스트하고 해결하기는 어려움이 있어서, (https://github.com/umihico/docker-selenium-lambda)의 이미지를 베이스로 해서 크롤링 및 db DML 기능을 구현  
+
 > 그럼에도 기본적으로 (https://docs.aws.amazon.com/ko_kr/lambda/latest/dg/lambda-python.html) 본 사이트의 이벤트 처리 형식 (def, event..)를 따라야 함  
+
 > 특히나 종속적인 라이브러리가 많은 본 프로젝트에서는 lambda에서 코딩하는 것보다는 docker file 자체를 AWS ECR에 배포, 그이후에 배포 이미지를 lambda에 연결하는 방식으로 구현(10기가 까지 가능하다는 것이 장점)
 
 ** AWS ECR (Elastic Container Registry)연결하기
@@ -39,7 +41,7 @@ https://ap-northeast-2.console.aws.amazon.com/ecr/repositories?region=ap-northea
   10. push 명령어 호출
   11. 따라하시면 끗
 
-## 참고 https://bluese05.tistory.com/51
+  * 참고 https://bluese05.tistory.com/51
 
 2. 보안정책 관련 문제
   1. lambda 권한 문제
