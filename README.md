@@ -57,6 +57,10 @@ https://ap-northeast-2.console.aws.amazon.com/ecr/repositories?region=ap-northea
 
 ### 2023-08-18 Update
 
+
+![img](ec2_develop.jpg)
+
+
 1. 우선 Lambda에서 실행자체는 성공했지만 비용자체가 너무 많이 발생(48만건 기준 거의 30~40만원.., 대신 10분안에 해결가능)
 2. 따라서 ec2로 옮겨서 실행(즉 람다 전용으로 docker image 포맷할 필요가 없어짐)
 3. 이 과정에서 chrome버전과 드라이버 버전을 고정함 (115) 현재는 116 최신버전이 나오긴했지만, 업데이트는 하지 않을 예정
