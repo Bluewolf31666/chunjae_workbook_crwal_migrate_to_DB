@@ -1,0 +1,6 @@
+selenium
+aspose-words
+Pillow
+boto3
+mysql-connector-python
+pandas

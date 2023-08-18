@@ -3,11 +3,12 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from PIL import Image
 from selenium.webdriver.chrome.service import Service
-import os
 from selenium.webdriver.common.by import By
+import os
 import pymysql
 import setting
 import math
+
 path=os.getcwd()
 Url_list=[147434,147376,146368,145664,145571,144916,144904,144605,144576,144468]
 for i in Url_list:
