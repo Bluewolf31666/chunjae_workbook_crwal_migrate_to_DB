@@ -69,4 +69,9 @@ https://ap-northeast-2.console.aws.amazon.com/ecr/repositories?region=ap-northea
 6. ec2의 경우 c6i.xlarge로 실행함. 다만 추후에 airflow로 배치 작업 실행시 필요한 용량이 5.5 기가이므로 이에 따라 용량 증설 필요
 
 
+### 2023-09-12 Update
 
+1. airflow에서 어차피 dockercompose로 올려야 하는데, 그 과정에서 chrome과 selenium은 자동업데이트, driver는 셀레니움이 알아서 다운받음
+2. tmp과도하게 나오는 현상은 tmp경로 지정및 매번 삭제 해주는 것이 좋은걸루
+3. c6i.xlarge로도 결국 부족해서 c6i.2xlarge 를 사용했음. 메모리 문제도 있지만, 배치 작업에서 너무 불리하며, 애초에 airflow가 최소 10기가 메모리를 요구
+4. airflow는 dag로 실행되기떄문에 dag폴더에 py파일로 배치 작업을 실행 + 성공 및 실패시 email로 전송하게 작업함함
