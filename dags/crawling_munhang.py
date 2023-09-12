@@ -13,7 +13,7 @@ default_args = {
     'start_date': datetime(2023, 9,4),
     'depends_on_past': False,
     'retries': 1,
-    'email':['chh6632@chunjae.co.kr','cng3022@chunjae.co.kr'],
+    'email':['11'],
     'on_success_callback' :False,
     'on_failure_callback' :False
 }
